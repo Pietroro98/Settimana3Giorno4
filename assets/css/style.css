@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 217, 255);
+    font-weight: bold;
+    background-image: url(https://www.shutterstock.com/image-vector/bingo-lotto-game-balls-lottery-600nw-1851120709.jpg);
+width: 100%;
+}
+
+h1, #button {
+    text-align: center;
+}
+#tombolone {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+.numeri {
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+.caselle {
+    margin-bottom: -5px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+
+.h3{
+    color: black;
+}
+.estratto {
+    background-color: red;
+}
